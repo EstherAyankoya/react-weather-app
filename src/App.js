@@ -4,10 +4,12 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Weather App</h1>
+      <div className="container">
+        <h1>Weather App</h1>
+        <button className="btn btn-primary">hi</button>
       <footer>This project was coded by Esther</footer>
     
-    
+    </div>
     </div>);
      
 }
