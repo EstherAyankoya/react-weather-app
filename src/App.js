@@ -6,20 +6,14 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Weather App</h1>
+        <h1 class="text-center mb-4">Esther's Weather App</h1>
         <Weather defaultCity="London"/>
         <footer>
-          This project was coded by{" "}
-          <a
-            href="https://www.delac.io/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Matt Delac
-          </a>{" "}
+          This project was coded by Esther Ayankoya
+
           and is{" "}
           <a
-            href="https://github.com/wecodeschool/react-weather-app"
+            href="https://github.com/EstherAyankoya/react-weather-app"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -27,7 +21,7 @@ function App() {
           </a>{" "}
           and{" "}
           <a
-            href="https://suspicious-beaver-111c4d.netlify.com/"
+            href="https://app.netlify.com/sites/effulgent-squirrel-e6b44b/configuration/general"
             target="_blank"
             rel="noopener noreferrer"
           >
