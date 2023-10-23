@@ -7,7 +7,7 @@
   }
   
   .Weather h1 {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 100;
     margin: 20px 0 0 0;
     line-height: 29px;
@@ -28,15 +28,15 @@
     font-weight: bold;
     color: rgb(33, 33, 33);
     font-size: 64px;
-    line-height: 64px;
-    margin-left: 5px;
+    line-height: 1px;
     font-weight: 400;
-    margin-left: 10px;
+    margin-left: 50px;
   }
   
   .Weather canvas {
     margin: 10px auto;
-    display: inline-block;
+ 
+
   }
   
   .Weather .unit {
@@ -47,3 +47,6 @@
     line-height: 1;
     top: -34px;
   }
+
+  .WeatherInfo .conditions {font-size: 20px;
+margin-top: 10px;}

@@ -8,7 +8,32 @@ function App() {
       <div className="container">
         <h1>Weather App</h1>
         <Weather defaultCity="London"/>
-      <footer>This project was coded by Esther</footer>
+        <footer>
+          This project was coded by{" "}
+          <a
+            href="https://www.delac.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Matt Delac
+          </a>{" "}
+          and is{" "}
+          <a
+            href="https://github.com/wecodeschool/react-weather-app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            open-sourced on GitHub
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://suspicious-beaver-111c4d.netlify.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            hosted on Netlify
+          </a>
+        </footer>
     
     </div>
     </div>);
